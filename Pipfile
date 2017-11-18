@@ -1,0 +1,20 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+
+spotipy = "==2.4.4"
+meh = "==1.2.1"
+appdirs = "==1.4.3"
+click = "==6.7"
+colorama = "==0.3.9"
+"py-getch" = "==1.0.1"
+bottle = "==0.12.13"
+"python-dateutil" = "==2.6.1"
+
+[dev-packages]
+
+[requires]
+python_version = "3.6"
