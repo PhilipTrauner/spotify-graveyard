@@ -219,15 +219,13 @@ def run(ctx):
 
 		offset += PLAYLIST_TRACKS_MAX_LIMIT	
 
-	#print(inbox_tracks)
-
 	now = datetime.now(timezone.utc)
 
 	zombie_tracks = []
 
 	for track in inbox_tracks:
 		if relativedelta(now, dp.parse(track["added_at"])).days >= \
-			cfg.livespan:
+			cfg.livespan and track["track"]["id"] != None:
 
 			zombie_tracks.append(track["track"])
 
