@@ -17,7 +17,7 @@ Bury the undead tracks in your inbox playlist once and for all!
 
 setup(
 	name="spotify-graveyard",
-	version="1.0.0",
+	version="1.0.1",
 	description="Bury the undead tracks in your Inbox playlist once and for all!",
 	long_description=long_description,
 	url="https://github.com/PhilipTrauner/spotify-graveyard",
